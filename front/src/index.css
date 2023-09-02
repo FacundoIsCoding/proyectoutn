@@ -1,0 +1,810 @@
+/* Fuente utilizada */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img,
+video {
+    max-width: 100%;
+    display: block;
+}
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* estilos header */
+.header {
+    background-color: #2e64a1;
+    padding: 16px 0;
+    height: 150px;
+    background-position: center;
+}
+
+.header h1 {
+    color: #fafafa;
+    text-shadow: 3px 3px #2e64a1;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+
+/* contenido del main */
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-decoration: solid;
+    color: #2e64a1;
+}
+
+/* fin */
+
+/* estilos seccion inicio */
+.fondotxt {
+    position: relative;
+    text-align: center;
+}
+
+.fondotxt h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+    text-shadow: 1.3px 1.8px black;
+    font-size: 9rem;
+    font-family: ('Josefin sans'), sans-serif;
+}
+
+.fondotxt img {
+    filter: contrast(70%);
+    filter: opacity(80%);
+}
+
+.videotxt {
+    position: relative;
+    text-align: center;
+}
+
+.videotxt iframe {
+    position: absolute;
+    right: 16px;
+}
+
+.videotxt h2 {
+    display: flex;
+}
+
+.videotxt p {
+    position: absolute;
+    left: 60px;
+    top: 80px;
+    width: 800px;
+    font-size: 24px;
+
+}
+
+/* fin */
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding-top: 0.5px;
+}
+
+/* Estilos para sección Registrarse */
+
+.registro {
+    background-image: url("https://media.istockphoto.com/id/1335175372/es/foto/vista-frontal-de-la-recepci%C3%B3n-en-la-entrada-del-vest%C3%ADbulo-de-un-hotel-o-empresa-de-lujo-sala.jpg?s=612x612&w=0&k=20&c=Gfgyv_omFwkHBSjI3OI721qRjzdh54oWIoIgVbrf7aM=");
+    background-size: 1300px 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 180px;
+    text-align: center;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.35);
+    position: relative;
+}
+
+.registrarse {
+    -webkit-text-stroke: 2px #fafafa;
+    color: transparent;
+    font-size: 88px;
+    left: -30%;
+    margin-top: -120px;
+    text-align: center;
+    letter-spacing: 0.25rem;
+}
+
+.oracion {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #fafafa;
+}
+
+.campo {
+    color: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.email {
+    color: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-left: -80px;
+}
+
+.contraseña {
+    color: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-left: -30px;
+}
+
+
+
+
+
+.formulario {
+    width: 99%;
+    height: 70vh;
+    margin: 0;
+    background-color: #4c76a5;
+    color: #fafafa;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+
+/* Estilos para la sección Servicios */
+.h__servicios {
+    background-image: url("https://images.pexels.com/photos/8135504/pexels-photo-8135504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: 1690px 900px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 70px;
+    text-align: center;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.35);
+    position: relative;
+}
+
+.h__servicios p {
+    position: relative;
+    -webkit-text-stroke: 2px #fafafa;
+    color: transparent;
+    font-size: 88px;
+    left: -30%;
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.sauna {
+    width: 180px;
+    height: 180px;
+    margin-left: 750px;
+    margin-top: -290px;
+    border-radius: 15px;
+}
+
+.casino {
+    width: 180px;
+    height: 180px;
+    margin-left: 750px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.wifi {
+    width: 180px;
+    height: 180px;
+    margin-left: 1000px;
+    margin-top: -400px;
+    border-radius: 15px;
+}
+
+.buffet {
+    width: 180px;
+    height: 180px;
+    margin-left: 1000px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    letter-spacing: 0.25em;
+}
+
+.incluido {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 4rem;
+    color: transparent;
+    -webkit-text-stroke: 2.5px black;
+    letter-spacing: 0.25em;
+}
+
+.baño {
+    width: 400px;
+    margin-left: 200px;
+}
+
+.frigo {
+    width: 400px;
+    margin-left: 200px;
+
+}
+
+.desayuno {
+    width: 400px;
+    margin-top: -310px;
+    margin-left: 600px;
+}
+
+.aire {
+    width: 400px;
+    margin-left: 600px;
+}
+
+.tv {
+    width: 400px;
+    margin-left: 1040px;
+    margin-top: -310px;
+}
+
+.wi__fi {
+    width: 400px;
+    margin-left: 1040px;
+}
+
+.subhotel {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    letter-spacing: 0.25em;
+}
+
+.opcionales {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 4rem;
+    color: transparent;
+    -webkit-text-stroke: 2.5px black;
+    letter-spacing: 0.25em;
+}
+
+.hidro {
+    width: 400px;
+    margin-left: 200px;
+}
+
+.night {
+    width: 400px;
+    margin-left: 200px;
+
+}
+
+.confiteria {
+    width: 400px;
+    margin-top: -310px;
+    margin-left: 600px;
+}
+
+.sala {
+    width: 400px;
+    margin-left: 600px;
+}
+
+.lavanderia {
+    width: 400px;
+    margin-left: 1040px;
+    margin-top: -310px;
+}
+
+.room {
+    width: 400px;
+    margin-left: 1040px;
+}
+
+.galeria {
+    background-image: url("https://media.istockphoto.com/id/1340523558/es/foto/fondo-panor%C3%A1mico-para-un-restaurante.jpg?s=612x612&w=0&k=20&c=l8lcjLq2MNaUz97MzrG2lMRg6ZK9MpqyyIvOdbXyCmk=");
+    background-size: 1690px 900px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px;
+    text-align: center;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.35);
+    position: relative;
+}
+
+.galeria p {
+    position: relative;
+    -webkit-text-stroke: 2px #fafafa;
+    color: transparent;
+    font-size: 88px;
+    left: -30%;
+}
+
+
+
+.primero {
+    margin-top: -500px;
+
+}
+
+.segundo {
+    margin-top: -30px;
+}
+
+.tercero {
+    margin-top: -30px;
+}
+
+.copa__a {
+    width: 340px;
+    margin-top: -10px;
+    margin-left: 740px;
+
+}
+
+.copa__b {
+    width: 300px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 1040px;
+}
+
+.copa__c {
+    width: 400px;
+    margin-top: -200px;
+    margin-left: 690px;
+}
+
+/* FIN SERVICIOS*/
+
+
+/* Estilos para la sección Habitaciones */
+
+.habitaciones {
+    background-image: url("https://media.istockphoto.com/id/544800114/es/foto/corredor-en-un-crucero.jpg?s=612x612&w=0&k=20&c=fvIBbnZC7Cw2pB-xZtDFvwZYXmH8xnfrAkSqwLmLgLU=");
+    background-size: 1690px 900px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 70px;
+    text-align: center;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.35);
+    position: relative;
+}
+
+.descanso {
+    -webkit-text-stroke: 2px #fafafa;
+    color: transparent;
+    font-size: 88px;
+    display: flex;
+    margin-top: 10%;
+    width: 200px;
+}
+
+.hab__parrafo {
+    position: absolute;
+    right: 70px;
+    margin-top: -370px;
+    margin-right: 150px;
+    width: 550px;
+    font-size: 30px;
+    background-color: rgba(23, 23, 23, 0.227);
+    border: 5px double rgb(255, 255, 255, 0.55);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1em;
+
+}
+
+.hab__parrafo h2 {
+    margin: 10px 10px 10px 10px;
+    margin-left: 100px;
+
+}
+
+/* Estilos para los carruseles (HABITACIONES) */
+
+.carousel h3 {
+    width: px;
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    color: #fafafa;
+    -webkit-text-stroke: 1.3px black;
+    letter-spacing: 0.25em;
+}
+
+.estrella {
+    margin-left: 120px;
+}
+
+.luna {
+    margin-left: 150px;
+}
+
+.sol {
+    margin-left: 150px;
+}
+
+.mar {
+    margin-left: 150px;
+}
+
+.carousel__hab {
+    width: 815px;
+    height: 615px;
+}
+
+.carousel__a {
+    width: 815px;
+    height: 615px;
+    margin-left: 30px;
+    background-color: #fafafa;
+}
+
+.carousel__b {
+    width: 830px;
+    height: 630px;
+    margin-left: 845px;
+    background-color: #fafafa;
+
+}
+
+.carousel__c {
+    width: 815px;
+    height: 615px;
+    margin-left: 30px;
+    background-color: #fafafa;
+
+}
+
+.carousel__d {
+    width: 815px;
+    height: 615px;
+    margin-left: 845px;
+    background-color: #fafafa;
+}
+
+.plano__a {
+    width: 815px;
+    height: 615px;
+    margin-top: -615px;
+    margin-left: 850px;
+}
+
+.plano__b {
+    width: 815px;
+    height: 615px;
+    margin-top: -630px;
+    margin-left: 70px;
+}
+
+.plano__c {
+    width: 815px;
+    height: 615px;
+    margin-top: -615px;
+    margin-left: 850px;
+}
+
+.plano__d {
+    width: 815px;
+    height: 615px;
+    margin-top: -615px;
+    margin-left: 70px;
+}
+
+/* FIN DE HABITACIONES */
+
+/* Estilos para la sección Destinos */
+
+.destinos {
+    background-image: url("https://images6.alphacoders.com/407/thumbbig-407490.webp");
+    background-size: 1680px 900px;
+    width: 1660px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 70px;
+    text-align: center;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+}
+
+.dest__titulo {
+    -webkit-text-stroke: 2px #fafafa;
+    color: transparent;
+    font-size: 88px;
+    display: flex;
+    margin-top: 10%;
+    margin-left: 100px;
+    width: 200px;
+    letter-spacing: 0.8rem;
+}
+
+.vuelta {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+    letter-spacing: 0.25em;
+}
+
+.asia {
+    width: 523px;
+    height: 473px;
+    margin-left: 20px;
+}
+
+.japon {
+    margin-left: 220px;
+    margin-top: -75px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255, 50%);
+
+
+
+}
+
+.europa {
+    width: 523px;
+    height: 473px;
+    margin-left: 583px;
+    margin-top: -473px;
+}
+
+.francia {
+    margin-left: 770px;
+    margin-top: -90px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255, 50%);
+}
+
+.alaska {
+    width: 523px;
+    height: 473px;
+    margin-left: 1146px;
+    margin-top: -473px;
+
+}
+
+.aurora {
+    margin-left: 1330px;
+    margin-top: -90px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255, 50%);
+}
+
+.grecia {
+    width: 523px;
+    height: 473px;
+    margin-left: 20px;
+}
+
+.islas {
+    margin-left: 200px;
+    margin-top: -75px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255, 50%);
+
+
+
+}
+
+.africa {
+    width: 523px;
+    height: 473px;
+    margin-left: 583px;
+    margin-top: -473px;
+}
+
+.sudafrica {
+    margin-left: 760px;
+    margin-top: -90px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255, 50%);
+}
+
+.mediterraneo {
+    width: 523px;
+    height: 473px;
+    margin-left: 1146px;
+    margin-top: -473px;
+
+}
+
+.media {
+    margin-left: 1270px;
+    margin-top: -90px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255, 50%);
+}
+
+.bahamas {
+    width: 523px;
+    height: 473px;
+    margin-left: 20px;
+}
+
+.bahama {
+    margin-left: 170px;
+    margin-top: -75px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255, 50%);
+
+}
+
+.caribe {
+    width: 523px;
+    height: 473px;
+    margin-left: 583px;
+    margin-top: -473px;
+}
+
+.playa {
+    margin-left: 770px;
+    margin-top: -90px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255, 50%);
+}
+
+.canada {
+    width: 523px;
+    height: 473px;
+    margin-left: 1146px;
+    margin-top: -473px;
+
+}
+
+.edmonton {
+    margin-left: 1340px;
+    margin-top: -90px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255, 50%);
+}
+
+.australia {
+    width: 523px;
+    height: 473px;
+    margin-left: 20px;
+}
+
+.austral {
+    margin-left: 160px;
+    margin-top: -75px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255, 50%);
+
+}
+
+.hawaii {
+    width: 523px;
+    height: 473px;
+    margin-left: 583px;
+    margin-top: -473px;
+}
+
+.hawai {
+    margin-left: 760px;
+    margin-top: -90px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255, 50%);
+}
+
+.mexico {
+    width: 523px;
+    height: 473px;
+    margin-left: 1146px;
+    margin-top: -473px;
+
+}
+
+.monterrey {
+    margin-left: 1340px;
+    margin-top: -90px;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255, 50%);
+}
+
+
+/* NAVBAR.CSS */
+.navbar {
+    /* solo afecta To Ocean */
+    background: #fafafa;
+    height: 80px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    font-size: 30px;
+}
+
+.navbaractive {
+    position: absolute;
+    width: 45%;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+/* Diseño individual de nav */
+.navfont {
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}

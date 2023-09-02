@@ -1,0 +1,13 @@
+.container border{
+    margin-top: 50px;
+    width: 50%;
+    background-image: url('https://img.freepik.com/premium-vector/vector-seamless-blue-pattern-with-line-envelopes_182787-1424.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    bottom: 0;
+}
+
+.row {
+    margin: 25px 85px 75px 100px;
+}
